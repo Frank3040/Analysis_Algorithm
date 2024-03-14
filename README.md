@@ -33,7 +33,7 @@ this is to iterate over all the items in the list
                 sum_max = current_sum
                 best_list = list[i:j+1]
     
-    # Then this function prints both, the maximun sum and the best list
+    # Then this function prints both, the maximun sum and the sublist that owns it.
     print(best_list)
     print(sum_max)
 ~~~
