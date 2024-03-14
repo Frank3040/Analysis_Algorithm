@@ -3,7 +3,7 @@ This problem basically consists in finding a sublist of the input list whose sum
 
 What I did in this case was:
 
-I thought that to find the sublist that meets the condition I needed to iterate over each of the items considering every case, it means that my code consider all the possible combinations. So it consider all the possible sublists that the list can have.
+I thought that to find the sublist that meets the condition I needed to iterate over each of the items considering every case, it means that my code consider all the possible combinations. So it considers all the possible sublists that the list can have.
 
 ~~~python
 sum_max = 0
