@@ -37,3 +37,5 @@ this is to iterate over all the items in the list
     print(best_list)
     print(sum_max)
 ~~~
+
+**Note**: I did not use Kadane's Algorithm since it would not make sense use only one approach.
