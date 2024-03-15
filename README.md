@@ -1,9 +1,11 @@
 ## Maximun sum of subarray
+### Problem
 This problem basically consists in finding a sublist of the input list whose sum of entries (items) is the largest.
 
-What I did in this case was:
+### Solution
+The solution I thought of was:
 
-I thought that to find the sublist that meets the condition I needed to iterate over each of the items considering every case, it means that my code consider all the possible combinations. So it considers all the possible sublists that the list can have.
+I thought that to find the sublist that meets the condition, I needed to iterate over each element considering every case, it means that my code consider all the possible combinations. In other words, it considers all the possible sublists that the list can have.
 
 ~~~python
 sum_max = 0
@@ -11,7 +13,7 @@ sum_max = 0
 """
 Here I define the variable that stores the maximun sum
 
-Then here you can see that I use a for inside of another for, 
+Then here you can see that I use a nested for, 
 this is to iterate over all the items in the list
 """
 
@@ -39,3 +41,11 @@ this is to iterate over all the items in the list
 ~~~
 
 **Note**: I did not use Kadane's Algorithm since it would not make sense use only one approach.
+
+### Identifying time complexity
+
+I have identified that the time complexity of my algorithm is O(n^2):
+
+The graph below shows it:
+
+![Graph_O](images/graph_o.PNG)
